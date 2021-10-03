@@ -1,5 +1,11 @@
 {
-  "stars": [],
+  "stars": [
+  {
+        "name": "Sun",
+        "mass": 1988470,
+        "diameter": 1392700
+  }
+  ],
   "planets": [
     {
       "name": "Mercury",
