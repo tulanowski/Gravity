@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1443640549}
-  - component: {fileID: 1443640548}
   m_Layer: 0
   m_Name: StarSystem
   m_TagString: Untagged
@@ -140,21 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1443640548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443640547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5578a3fb4a4674e4fae62b2fc40ee820, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jsonDataFile: {fileID: 4900000, guid: 56ce6ef22f2a3ee4bb68d8d2515cb05c, type: 3}
-  celestialBodyPrefab: {fileID: 8842617370445290359, guid: 8c46957eea952d84a82ea3d337585211, type: 3}
-  starPrefab: {fileID: 6672372651203053717, guid: 1d9c73474d059d848bd127d58051cc59, type: 3}
 --- !u!4 &1443640549
 Transform:
   m_ObjectHideFlags: 0

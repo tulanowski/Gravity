@@ -75,18 +75,18 @@ public class CelestialBodyController : MonoBehaviour
         }
     }
 
-    public void BalanceMomentum()
-    {
-        Vector3 momentum = Vector3.zero;
-        foreach (Rigidbody otherBody in allBodies)
-        {
-            if (otherBody == myBody) continue;
-            momentum += otherBody.velocity * otherBody.mass;
-        }
-        Debug.Log(momentum);
-        myBody.velocity = -momentum / myBody.mass;
-        Debug.Log(myBody.velocity);
-    }
+    //public void BalanceMomentum()
+    //{
+    //    Vector3 momentum = Vector3.zero;
+    //    foreach (Rigidbody otherBody in allBodies)
+    //    {
+    //        if (otherBody == myBody) continue;
+    //        momentum += otherBody.velocity * otherBody.mass;
+    //    }
+    //    Debug.Log(momentum);
+    //    myBody.velocity = -momentum / myBody.mass;
+    //    Debug.Log(myBody.velocity);
+    //}
 
     Material FindMaterial(string name)
     {
